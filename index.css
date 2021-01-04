@@ -1,0 +1,136 @@
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    tp{
+        opacity: 1;
+    }
+}
+
+@keyframes fadeout{
+    from{
+        opacity: 1;
+    }
+    tp{
+        opacity: 0;
+    }
+}
+
+
+body{
+    color: white;
+}
+.js-weather{
+    text-align: right;
+    font-size: xx-large;
+}
+
+.main{
+    text-align: center;
+}
+
+.js-clock{
+    font-size: 120px;
+    padding-bottom: 0px;
+}
+
+h1{
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+input::placeholder{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    
+}
+
+input{
+    border: none;
+    border-bottom: 3px solid white;
+    background-color: transparent;
+    width: 500px;
+    height: 45px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+input:focus{
+    outline:none;
+}
+.js-toDoList{
+    list-style: none;
+    padding-left:0px;
+}
+
+button{
+    background-color: transparent;
+    border: 0px;
+    color: white;
+    width:50px;
+    height: 55px;
+    font-size: 40px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+button:hover{
+    box-shadow:50px 0 0 0 rgba(255, 255, 255, 0.5) inset;
+}
+.js-form
+{
+    font-size: 80px;
+}
+.js-form input{
+    border: none;
+    border-bottom: 3px solid white;
+    background-color: transparent;
+    width: 500px;
+    height: 85px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 40px;
+}
+
+
+.js-greetings{
+    font-size:80px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    animation: fadeIn 1s linear;
+}
+.form,
+.greetings{
+    display: none;
+    animation: fadeout 1s linear;
+}
+
+.showing{
+    display: block;
+    animation: fadeIn 1s linear;
+}
+
+li{
+    font-size: 40px;
+    animation: fadeIn 0.5s linear;
+}
+
+
+
+.bgImage {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn 1s linear;
+}
+
+
